@@ -12,6 +12,7 @@ public class Main {
         arrayList.add("c");
         arrayList.add("d");
         arrayList.add("e");
+        System.out.println(123);
         for (int i=0;i<arrayList.size();i++){
             jedis.zadd("myzset",i ,arrayList.get(i));
 
